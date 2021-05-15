@@ -1,2 +1,9 @@
 server:
   port: 7777
+accounts:
+  datasource:
+    url: jdbc:mysql://localhost:3306/account?serverTimezone=Europe/Warsaw&useSSL=False
+    username: root
+    password: a277211
+    ddl-mode: update
+    

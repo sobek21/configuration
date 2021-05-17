@@ -1,0 +1,9 @@
+server:
+  port: 7777
+customer:
+  datasource:
+    url: jdbc:mysql://localhost:3306/customer?serverTimezone=Europe/Warsaw&useSSL=False
+    username: root
+    password: a277211
+    ddl-mode: update
+  allow-get-accounts: true

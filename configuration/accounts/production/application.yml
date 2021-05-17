@@ -6,4 +6,4 @@ accounts:
     username: root
     password: a277211
     ddl-mode: update
-  allow-get-accounts: false
+  allow-get-accounts: true
